@@ -1,0 +1,15 @@
+.main-request{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.8rem;
+    color: #272829;
+
+    margin-top: 2rem;
+}
+
+.card img{
+    width: 15rem;
+}
