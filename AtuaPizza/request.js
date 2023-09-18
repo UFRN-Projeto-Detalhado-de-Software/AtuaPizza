@@ -8,7 +8,7 @@ localArea.addEventListener("click", () => {
 })
 
 delArea.addEventListener("click", () => {
-    location.href = "./formPages/deliveryPage.html"
+    location.href = "./formPages/cardapioPage.html"
 })
 
 encArea.addEventListener("click", () => {
