@@ -1,1 +1,3 @@
-Início do projeto AtuaPizza
+*AtuaPizza*
+
+NodeJS v18.17.1
