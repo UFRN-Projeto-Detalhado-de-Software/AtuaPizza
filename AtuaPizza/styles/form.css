@@ -1,0 +1,10 @@
+.form-card{
+    border: 1px solid black;
+    border-radius: 2rem;
+    background-color: white;
+    width: 70%;
+    height: 90vh;
+
+    margin: auto;
+    margin-top: 2rem;
+}
