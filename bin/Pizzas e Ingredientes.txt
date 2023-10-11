@@ -1,0 +1,24 @@
+
+Pizzas
+*Calabresa: Molho de tomate, Mussarela, Cebola, Calabresa, Oregano
+*Frango com Catupiry: Molho de tomate, Mussarela, Catupiry, Frango
+*Margherita: Molho de tomate, Mussarela, Tomate, Manjericao
+*Mussarela: Molho de tomate, Mussarela, Azeitona Preta, Oregano
+*Pepperoni: Molho de tomate, Mussarela, Catupiry, Pepperoni
+*Portuguesa: Molho de tomate, Mussarela, Catupiry, Azeitona Preta, Cebola, Tomate, Calabresa, Frango, Pepperoni, Oregano
+*QuatroQueijos: Molho de tomate, Mussarela, Catupiry, Parmesão, Provolone, Manjericao
+
+Ingredientes
+-Molho de tomate
+-Mussarela
+-Catupiry
+-Parmesão
+-Provolone
+-Azeitona Preta
+-Cebola
+-Tomate
+-Calabresa
+-Frango
+-Pepperoni
+-Manjericao
+-Oregano

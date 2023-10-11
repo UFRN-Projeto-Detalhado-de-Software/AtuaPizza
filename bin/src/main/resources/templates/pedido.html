@@ -1,0 +1,117 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" th:insert="layout :: page">
+
+<body th:fragment="content">
+    <div id="app">
+        <div class="form-card d-flex p-5">
+          <div class="container text-center">
+            <h1>Pedido</h1>
+            <form class="realizar-pedido">
+                <div class="row">
+                    <h6>Endereço</h6>
+                  <div class="form-group col-md-12">
+                    <label for="inputRua">Rua:</label>
+                    <input type="text" class="form-control" id="inputRua">
+                  </div>
+                </div>
+
+                <div class="row justify-content-between mt-3">
+                  <div class="form-group col-md-6">
+                      <label for="inputCidade">Cidade</label>
+                      <input type="text" value="Natal" class="form-control" id="inputCidade">
+                  </div>
+                  <div class="form-group col-md-6">
+                      <label for="inputEstado">Estado</label>
+                      <select id="inputEstado" class="form-control">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN" selected>Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="EX">Estrangeiro</option>
+                    
+                      </select>
+                  </div>
+
+                <div class="row justify-content-between mt-5">
+                    <div class="col-1"><h6>Sabor:</h6></div>
+                    <div class="col-5 ms-5 ps-3">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="margherita" name="sabor" class="custom-control-input sabor-pizza">
+                        <label class="custom-control-label" for="margherita">Margherita</label>
+                      </div>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id="calabresa" name="sabor" class="custom-control-input sabor-pizza">
+                        <label class="custom-control-label" for="calabresa">Calabresa</label>
+                      </div>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id="frango-com-catupiry" name="sabor" class="custom-control-input sabor-pizza">
+                        <label class="custom-control-label" for="Frango com catupiry">Frango com catupiry</label>
+                      </div>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id="mussarela" name="sabor" class="custom-control-input sabor-pizza">
+                        <label class="custom-control-label" for="mussarela">Mussarela</label>
+                      </div>
+                    </div>
+
+                      <div class="col-5">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="quatro-queijos" name="sabor" class="custom-control-input sabor-pizza">
+                            <label class="custom-control-label" for="quatro-queijos">Quatro queijos</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="pepperoni" name="sabor" class="custom-control-input sabor-pizza">
+                            <label class="custom-control-label" for="pepperoni">Pepperoni</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="portuguesa" name="sabor" class="custom-control-input sabor-pizza">
+                            <label class="custom-control-label" for="portuguesa">Portuguesa</label>
+                        </div>
+                  </div>
+                  <div class="row justify-content-between mt-5">
+                    <div class="col-1"><h6>Pagamento:</h6></div>
+                    <div class="col-10">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="pix" name="pagamento" class="custom-control-input">
+                        <label class="custom-control-label" for="pix">Pix</label>
+                      </div>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id="cartaocredito" name="pagamento" class="custom-control-input">
+                        <label class="custom-control-label" for="cartaocredito">Cartão de crédito</label>
+                      </div>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id="cartaodebito" name="pagamento" class="custom-control-input">
+                        <label class="custom-control-label" for="cartaodebito">Cartão de débito</label>
+                      </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between mt-3"> 
+                    <button class="btn btn-outline-primary voltar" onclick="history.back()" type="button">Voltar</button>
+                    <button class="btn btn-primary finalizar-pedido" type="button">Finalizar</button>
+                </div>
+              </form>
+        </div>
+  </body>
+</html>
