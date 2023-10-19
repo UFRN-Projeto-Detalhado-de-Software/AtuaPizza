@@ -6,7 +6,7 @@ import "./styles/request.css"
 const clientArea = document.querySelector(".card-client")
 if (clientArea){
     clientArea.addEventListener("click", () => {
-        location.href = "request.html";
+        location.href = "cardapio";
     })
 }
 
@@ -19,7 +19,7 @@ if(saborPizzaCardapio){
             const sabor = pizza.textContent.replace(/\s/g, '-').toLowerCase();
             console.log(pizza)
             localStorage.setItem('saborEscolhido', sabor);
-            location.href = "/formPages/deliveryPage.html"
+            location.href = "pedido"
         })
     });
 }
@@ -43,13 +43,13 @@ if(pedidoForm){
     const finalizarButton = pedidoForm.querySelector(".finalizar-pedido");
     if (voltarButton){
         voltarButton.addEventListener("click", () => {
-            location.href = "/formPages/cardapioPage.html"
+            location.href = "cardapio"
         })
     }
 
     if (finalizarButton){
         finalizarButton.addEventListener("click", () => {
-            location.href = "/formPages/finalizadoPage.html"
+            location.href = "pedido_finalizado"
         })
     }
 }
