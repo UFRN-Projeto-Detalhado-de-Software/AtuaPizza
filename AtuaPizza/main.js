@@ -2,6 +2,7 @@
 import "./styles/card.css"
 import "./styles/request.css"
 */
+
 const clientArea = document.querySelector(".card-client")
 if (clientArea){
     clientArea.addEventListener("click", () => {
@@ -11,6 +12,7 @@ if (clientArea){
 
 const saborPizzaCardapio = document.querySelectorAll('.card-title.sabor-pizza');
 const saborPizzaCard = document.querySelectorAll('.card.sabor-card');
+
 if(saborPizzaCardapio){
     Array.from(saborPizzaCardapio).forEach(pizza => {    
         pizza.parentElement.parentElement.addEventListener("click", () => {

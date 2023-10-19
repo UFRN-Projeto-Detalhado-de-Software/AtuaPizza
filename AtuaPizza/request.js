@@ -4,7 +4,7 @@ const delArea = document.querySelector(".delivery-form")
 const encArea = document.querySelector(".enc-form")
 
 localArea.addEventListener("click", () => {
-    location.href = "./formPages/localPage.html"
+    location.href = "./formPages/cardapioPage.html"
 })
 
 delArea.addEventListener("click", () => {
@@ -12,5 +12,5 @@ delArea.addEventListener("click", () => {
 })
 
 encArea.addEventListener("click", () => {
-    location.href = "./formPages/encPage.html"
+    location.href = "./formPages/cardapioPage.html"
 })
