@@ -4,6 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.validation.constraints.Size;
 
 @Entity
 public class Pessoa {
@@ -11,8 +12,8 @@ public class Pessoa {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-
     private String nome;
+    @Size(min = 3, max = 15, message = "Login deverá conter de 3 á 15 caracteres")
     private String login;
     private String senha;
 
